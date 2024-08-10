@@ -6,7 +6,7 @@ import lombok.*;
 @Builder
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 @ToString
-public class LoginDTO {
+public class UserDTO {
     private long id;
     private String role;
     private String name;
